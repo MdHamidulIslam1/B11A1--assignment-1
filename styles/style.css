@@ -27,7 +27,6 @@ button {
 
 nav {
     display: flex;
-    /* padding: 24px; */
     margin-top: 24px;
     margin-bottom: 44px;
     align-items: center;
@@ -407,4 +406,59 @@ nav button:hover {
     flex-direction: column;
     align-items: center;
     gap: 32px;
+}
+
+/* newseletter part start */
+
+.newsletter {
+    background: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+
+.newsletter_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.newsletter_container p {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.newsletter_container_elements h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 16px;
+}
+
+.newsletter_container_elements p {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.input_btn input {
+    padding: 18px 403px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    outline: none;
+    font-family: Fira Sans;
+}
+
+.input_btn {
+    display: flex;
+}
+
+.input_btn button {
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    font-family: Fira Sans;
 }
