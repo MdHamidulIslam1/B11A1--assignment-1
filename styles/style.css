@@ -51,6 +51,7 @@ nav button {
     border-radius: 8px;
     font-size: 18px;
     font-weight: 600;
+    transition: 0.3s ease;
 }
 
 nav button:hover {
@@ -94,13 +95,14 @@ nav button:hover {
     border-radius: 8px;
     border: 2px solid rgba(0, 106, 80, 1);
     font-family: Fira Sans;
+    transition: 0.3s ease;
 }
 
 .bannar_container_1 button:hover {
     background: transparent;
     border: 2px solid rgba(0, 106, 80, 1);
     color: rgba(0, 106, 80, 1);
-    ;
+
 }
 
 .bannar_container_2 img {
@@ -137,6 +139,11 @@ nav button:hover {
     width: 410.67px;
     background: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.vision_container_elements .box1:hover {
+    background-color: rgba(84, 144, 245, 0.35)
 }
 
 .box1 .box_container {
@@ -175,7 +182,12 @@ nav button:hover {
     height: 325px;
     width: 410.67px;
     background: rgba(198, 228, 214, 1);
-    border-radius: 8px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.vision_container_elements .box2:hover {
+    background-color: rgba(168, 198, 184, 1);
 }
 
 .box2 .box_container {
@@ -215,6 +227,12 @@ nav button:hover {
     width: 410.67px;
     background: rgba(247, 235, 207, 1);
     border-radius: 16px;
+    transition: 0.3s ease;
+}
+
+.vision_container_elements .box3:hover {
+    background-color: rgba(217, 205, 177, 1)
+;
 }
 
 .box3 .box_container {
@@ -332,9 +350,16 @@ nav button:hover {
     padding: 13px 26px;
     color: white;
     font-weight: 600;
-    border: none;
+    border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 8px;
     background-color: rgba(0, 106, 80, 1);
+    transition: 0.3s ease;
+}
+
+.satellite_elements .satellite_text button:hover {
+    background-color: transparent;
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
 }
 
 .satellite_text {
@@ -371,7 +396,7 @@ nav button:hover {
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .boxsizing .box:hover {
@@ -400,6 +425,11 @@ nav button:hover {
     border-radius: 8px;
     border: 2px solid rgba(0, 106, 80, 1);
     font-family: Fira Sans;
+    transition: 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: rgba(0, 85, 64, 1);
 }
 
 .donet_form {
@@ -462,6 +492,11 @@ nav button:hover {
     border-radius: 0px 8px 8px 0px;
     border: none;
     font-family: Fira Sans;
+}
+
+.input_btn button:hover {
+    background-color: rgba(0, 85, 64, 1)
+;
 }
 
 .end {
