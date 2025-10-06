@@ -258,11 +258,11 @@ nav button:hover {
 }
 
 .quotes .quotes_container {
-    background: white;
     padding: 48px 24px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    background: url("../assets/quote-bg.png");
+    background: url("../assets/quote-bg.png"),
+        white;
     background-repeat: no-repeat;
     background-position-x: 24px;
     background-position-y: 25px;
@@ -286,5 +286,125 @@ nav button:hover {
     line-height: 24px;
 }
 
+.recent_container {
+    margin-top: 80px;
+}
 
+.satellite {
+    padding: 48px;
+    border-radius: 24px;
+    background-color: white;
+}
 
+.satellite_elements {
+    display: flex;
+    gap: 32px;
+}
+
+.satellite_elements .imges img {
+    border-radius: 24px;
+}
+
+.satellite_elements .satellite_text h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.satellite_elements .satellite_text h4 {
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
+    display: inline;
+    margin-right: 12px;
+}
+
+.satellite_elements .satellite_text img {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.satellite_elements .satellite_text p {
+    margin: 12px 0px 32px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.satellite_elements .satellite_text button {
+    padding: 13px 26px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+}
+
+.satellite_text {
+    margin-top: 16px;
+}
+
+.gap {
+    margin: 24px 0px;
+}
+
+.textaling {
+    text-align: center;
+}
+
+.donet {
+    margin: 80px 0px;
+
+}
+
+.boxsizing {
+    display: flex;
+    justify-content: space-around;
+    width: 1071px;
+    margin: 0px auto;
+}
+
+.boxsizing .box {
+    height: 128px;
+    width: 240px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    cursor: pointer;
+}
+
+.boxsizing .box:hover {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.boxsizing .boxcolor {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.inputdiv input {
+    padding: 20px 388.5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+    font-family: Fira Sans;
+}
+
+.btn button {
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid rgba(0, 106, 80, 1);
+    font-family: Fira Sans;
+}
+
+.donet_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
