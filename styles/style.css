@@ -492,6 +492,7 @@ nav button:hover {
     border-radius: 0px 8px 8px 0px;
     border: none;
     font-family: Fira Sans;
+    transition: 0.3s ease;
 }
 
 .input_btn button:hover {
